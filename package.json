@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "bangadam",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.2"
